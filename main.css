@@ -149,7 +149,7 @@ h4 {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px) and (-webkit-device-pixel-ratio: 3) {
   .main {
     display: flex;
     flex-direction: column;
