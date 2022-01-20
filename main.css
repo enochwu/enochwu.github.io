@@ -141,7 +141,7 @@ h4 {
   }
 }
 
-@media only screen (max-width: 768px) and (-webkit-device-pixel-ratio: 3) {
+@media (max-width: 768px) {
   .main {
     display: flex;
     flex-direction: column;
@@ -149,7 +149,7 @@ h4 {
   }
 }
 
-@media only screen (max-width: 480px) and (-webkit-device-pixel-ratio: 3) {
+@media (max-width: 480px) {
   .main {
     display: flex;
     flex-direction: column;
