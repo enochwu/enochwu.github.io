@@ -158,8 +158,11 @@ h4 {
     flex-wrap: nowrap;
   }
 
+  .list-container{
+    flex-direction: column;
+  }
+
   .standard-list{
     min-width: 0px;
-    padding-right: 24px;
   }
 }
