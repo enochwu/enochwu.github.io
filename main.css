@@ -157,4 +157,9 @@ h4 {
     padding: 24px;
     flex-wrap: nowrap;
   }
+
+  .standard-list{
+    min-width: 0px;
+    padding-right: 24px;
+  }
 }
