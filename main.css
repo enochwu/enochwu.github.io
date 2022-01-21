@@ -10,7 +10,7 @@ body {
 }
 
 header p{
-  margin: 8px 0px 24px 0px;
+  margin: 8px 0px 14px 0px;
 }
 
 header a{
@@ -30,13 +30,17 @@ h1 {
 }
 
 header {
-  margin-bottom: 34px;
+  margin-bottom: 38px;
 }
 
 nav {
   list-style: none;
   display: flex;
   flex-direction: row;
+}
+
+nav a{
+  font-weight: 600;
 }
 
 li{
@@ -46,6 +50,14 @@ li{
 a{
   text-decoration: none;
   color: #999;
+}
+
+nav a{
+  padding-bottom: 4px;
+}
+
+nav a:hover{
+  border-bottom: 1px solid;
 }
 
 a:visited{
@@ -99,9 +111,9 @@ h3 {
 
 .xp-subtitle {
   margin-top: 0px;
-  color: #888;
+  color: #999;
   font-weight: 600;
-
+  font-size: 16px;
 }
 
 h4 {
@@ -125,8 +137,10 @@ h4 {
 
 .institution-subtitle {
   margin: 0px;
-  color: #888;
+  color: #999;
   padding-bottom: 4px;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .institution-detail {
