@@ -92,6 +92,16 @@ li {
   padding-bottom: 12px;
 }
 
+.yellow-violate {
+
+  color: #f7d445;
+
+}
+
+.gray-violate {
+  color: #999;
+}
+
 .standard-list{
   padding-left: 0px;
   list-style: none;
